@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Video BAckground website</title>
-<link rel="stylesheet" href="style.css">
-</head>        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre FIFA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <div class="container">
-        <video autoplayl loop muted
-        plays-inline class="back">
-        <source src="vid.mp4"
-        type="video/mp4">
-    </video>
-        <nav>
+    <header>
+        <h1>Site sobre FIFA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#times">Times</a></li>
+            <li><a href="#jogadores">Jogadores</a></li>
+            <li><a href="#noticias">Notícias</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o FIFA</h2>
+            <p>O FIFA é uma série de videogames de futebol lançada pela Electronic Arts.</p>
+        </section>
+        <section id="times">
+            <h2>Times</h2>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>Real Madrid</li>
+                <li>Barcelona</li>
+                <li>Liverpool</li>
+                <li>etc...</li>
             </ul>
-        </nav>
-        <div class="head">
-            <h1>Next Dimension Coding</h1>
-            <a href="#">Like</a>
-        </div>
-    </div>
+        </section>
+        <section id="jogadores">
+            <h2>Jogadores</h2>
+            <ul>
+                <li>Lionel Messi</li>
+                <li>Cristiano Ronaldo</li>
+                <li>Neymar Jr</li>
+                <li>etc...</li>
+            </ul>
+        </section>
+        <section id="noticias">
+            <h2>Notícias</h2>
+            <p>Veja as últimas notícias sobre o FIFA e o mundo do futebol.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Site sobre FIFA</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
-</html>                
+</html>
+             
     
