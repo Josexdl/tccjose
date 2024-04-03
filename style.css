@@ -1,9 +1,9 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     background-color: #121212;
 }
 
@@ -47,7 +47,7 @@ nav a {
     align-items: center;
     text-align: center;
     padding: 1rem;
-    padding-top: 600px; /* Ajuste para mover o conteúdo para baixo */
+    padding-top: 200px; /* Ajuste para mover o conteúdo para baixo */
 }
 
 #hero h1 {
