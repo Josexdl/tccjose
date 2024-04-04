@@ -24,6 +24,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
+    
 }
 
 nav {
@@ -48,6 +49,7 @@ nav a:nth-child(3) {
     text-align: center;
     padding: 1rem;
     padding-top: 200px; /* Ajuste para mover o conteúdo para baixo */
+    background-repeat: no-repeat;  
 }
 
 #hero h1 {
@@ -99,5 +101,26 @@ footer {
 .button:hover {
     background-color: #008ba3;
 }
+#sobre {
+    margin-left: 20px;
+}
+#down {
+    margin-left: 900px;
+    margin-top: -26px;
+}
+#novi {
+    margin-left: 1729px;
+    margin-top: -26px;
+}
+#jogo {
+    text-align: justify;
+}
+
+
+
+
+
+
+
 
 
