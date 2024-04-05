@@ -18,7 +18,7 @@ a:hover {
 
 header {
     background-color: #1a1a1a;
-    padding: 1rem;
+    padding: 20px; /* Espaçamento interno de 20 pixels */
     position: fixed;
     top: 0;
     left: 0;
@@ -103,18 +103,28 @@ footer {
 }
 #sobre {
     margin-left: 20px;
+    font-size: 16px;
 }
 #down {
-    margin-left: 900px;
+    margin-left: 880px;
     margin-top: -26px;
+    font-size: 16px;
 }
 #novi {
     margin-left: 1729px;
     margin-top: -26px;
+    font-size: 16px;
 }
 #jogo {
     text-align: justify;
 }
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,154 @@
+/* CSS atualizado para responsividade e estilo semelhante ao FIFA */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Cor do texto */
+    background-color: #121212; /* Cor de fundo */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b8d9;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px; /* Espaçamento interno de 20 pixels */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a:nth-child(3) {
+    margin-left: 1px; /* Ajuste a margem conforme necessário */
+}
+
+#hero {
+    background-image: url('https://i.postimg.cc/YSDfqRVf/wallpapersden-com-fifa-19-game-cristiano-ronaldo-1366x768.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 200px; /* Ajuste para mover o conteúdo para baixo */
+    background-repeat: no-repeat;  
+}
+
+#hero h1 {
+    font-family: 'Arial Black', sans-serif; /* Fonte mais grossa */
+    font-size: 5rem; /* Tamanho maior */
+    margin: 0;
+    color: white;
+}
+
+#hero p {
+    font-family: 'Arial', sans-serif; /* Fonte normal */
+    font-size: 1.8rem; /* Tamanho maior */
+    margin: 0;
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+#features {
+    padding: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#features h2 {
+    font-size: 2.5rem;
+    color: #00b8d9; /* Azul claro */
+    margin-bottom: 1.5rem;
+}
+
+#features p {
+    max-width: 30rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #0f0f0f; /* Cinza mais escuro */
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Adicionando um estilo para o botão de download */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #00b8d9; /* Azul claro */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #008ba3; /* Azul mais escuro */
+}
+
+#inicio {
+    margin-left: 20px;
+    font-size: 16px; /* Tamanho da fonte em pixels */
+}
+#down {
+    margin-left: 880px; /* Margem à esquerda em pixels */
+    margin-top: -18px;
+}
+#novi {
+    margin-left: 1729px; /* Margem à esquerda em pixels */
+    margin-top: -18px;
+}
+
+#jogo {
+    text-align: justify;
+}
+
+#sobre {
+    text-align: justify; /* Texto justificado */
+    padding: 0 2cm; /* Distância de 2cm de cada lado */
+}
+
+#sobre h2 {
+    margin-top: 20px; /* Espaçamento do topo */
+    margin-bottom: 20px; /* Espaçamento da parte inferior */
+}
+
+/* Media queries para ajustar elementos em telas menores */
+@media screen and (max-width: 768px) {
+    #hero h1 {
+        font-size: 3.5rem; /* Reduzir tamanho da fonte */
+    }
+    #hero p {
+        font-size: 1.5rem; /* Reduzir tamanho da fonte */
+    }
+    #features p {
+        max-width: 100%; /* Garantir que o texto ocupe a largura total */
+    }
+    #down {
+        margin-left: 5%; /* Margem à esquerda em porcentagem */
+    }
+    #novi {
+        margin-left: 85%; /* Margem à esquerda em porcentagem */
+    }
+}
+    

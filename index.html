@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+
+<!--posso escluir depois-->
+    <title>Manipulação do DOM</title>
+    <script>
+        let count = 0;
+
+        function incrementCount() {
+          count++;
+          document.getElementById("count-display").textContent = count;
+        }        
+
+    </script>
+<!--posso escluir depois-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA 19</title>
@@ -10,10 +24,10 @@
     <header>
 
         <nav id="sobre">
-            <a href=".\html\sobre.html">Sobre</a>                     
+            <a href="sobre.html">Sobre</a>                     
         </nav>
         <nav id="down"> 
-            <a href="downloads.html">Download</a>
+            <a href="downloads.html">Criador</a>
         </nav>
         <nav id="novi"> 
             <a href="noticias.html">Novidades</a>
@@ -30,6 +44,13 @@
             <a href="downloads.html" class="button">Download</a>
         </section>
     </main>
+
+<!--posso escluir depois-->
+    <h1>Manipulação do DOM</h1>
+    <button onclick="incrementCount()">Clique Aqui</button>
+    <p>Total de Cliques: <span id="count-display">0</span></p>
+<!--posso escluir depois-->
+
     <footer>
         <p>© EA Sports</p>
     </footer>
