@@ -1,43 +1,50 @@
-body {
-    font-family: 'Roboto Condensed', sans-serif;
-    line-height: 1.6;
+/* Redefinição de estilos */
+* {
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.6;
+    color: #fff;
     background-color: #121212;
-}
-
-a {
-    color: #ffffff;
+  }
+  
+  a {
+    color: #fff;
     text-decoration: none;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     color: #00b8d9;
-}
-
-header {
+  }
+  
+  /* Cabeçalho */
+  header {
     background-color: #1a1a1a;
-    padding: 20px; /* Espaçamento interno de 20 pixels */
+    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
-    
-}
-
-nav {
+  }
+  
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-nav a:nth-child(3) {
-    margin-left: 1px; /* Ajuste a margem conforme necessário */
-}
-
-#hero {
+  }
+  
+  nav a:nth-child(3) {
+    margin-left: 1px;
+  }
+  
+  /* Seção de herói */
+  #hero {
     background-image: url('https://i.postimg.cc/g2RDJsk8/teste.jpg');
     background-size: cover;
     background-position: center;
@@ -47,77 +54,87 @@ nav a:nth-child(3) {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem;
-    padding-top: 200px; /* Ajuste para mover o conteúdo para baixo */
-    background-repeat: no-repeat;  
-}
-
-#hero h1 {    
-    margin: 0;
-    font-size: 3rem; /* Reduzir tamanho da fonte para telas menores */
-}
-
-#hero p {   
-    margin: 0;
-    font-size: 1.2rem; /* Reduzir tamanho da fonte para telas menores */
-}
-
-#features {
-    padding: 6rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#features h2 {
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
+  
+  /* Seção de recursos */
+  #features {
+    padding: 40px 0;
+  }
+  
+  #features h2 {
     font-size: 2.5rem;
-    color: #00b8d9;
-    margin-bottom: 1.5rem;
-}
-
-#features p {
-    max-width: 30rem;
-    text-align: center;
-}
-
-footer {
-    background-color: #0f0f0f;
-    padding: 2rem;
-    text-align: center;
-}
-
-/* Adicionando um estilo para o botão de download */
-.button {
+    margin-bottom: 1rem;
+  }
+  
+  #features p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  #features .button {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 20px;
     background-color: #00b8d9;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
+    border: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #008ba3;
-}
-#sobre {
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 768px) {
+    #hero {
+      height: calc(100vh - 60px);
+    }
+  
+    #features {
+      padding: 20px 0;
+    }
+  
+    #features h2 {
+      font-size: 2rem;
+    }
+  
+    #features p {
+      font-size: 1rem;
+    }
+  }
+  #sobre {
     margin-left: 20px;
     font-size: 16px;
 }
 #down {
-    margin-left: 880px;
+    margin-left: 910px;
     margin-top: -26px;
     font-size: 16px;
 }
 #novi {
-    margin-left: 1729px;
+    margin-left: 1764px;
     margin-top: -26px;
     font-size: 16px;
 }
-#jogo {
-    text-align: justify;
-}
+  
 
 
 
